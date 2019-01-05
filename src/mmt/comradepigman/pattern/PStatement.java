@@ -13,7 +13,15 @@ public class PStatement extends PatternComponent {
 
     @Override
     public String parse(int indent) {
-	return SEPARATOR + this.createIndent(indent) + this.sName + " = " + this.sValue;
+	return SEPARATOR + this.createIndent(indent) + this.getSName() + " = " + this.sValue;
     }
+
+	public String getSName() {
+		return this.sName;
+	}
+
+	public String getSValue() {
+		return this.sValue;
+	}
 
 }

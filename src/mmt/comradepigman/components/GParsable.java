@@ -1,7 +1,7 @@
 package mmt.comradepigman.components;
 
-import mmt.comradepigman.pattern.PatternComponent;
+import mmt.comradepigman.files.FFile;
 
 public interface GParsable {
-    PatternComponent parse();
+    void parse(FFile lFile); // l : Last
 }

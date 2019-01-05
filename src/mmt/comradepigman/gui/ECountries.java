@@ -12,6 +12,6 @@ public class ECountries extends VBox {
     private final List<ParsableComponent> childComponents = new ArrayList<>();
 
     public ECountries() {
-	this.childComponents.add(new CAutonomy());
+    	this.childComponents.add(new CAutonomy());
     }
 }

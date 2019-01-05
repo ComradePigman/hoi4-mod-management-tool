@@ -1,13 +1,14 @@
 package mmt.comradepigman.pattern;
 
+import java.io.Serializable;
 import java.util.Collections;
 
-public abstract class PatternComponent {
+public abstract class PatternComponent implements Serializable{
 
     protected static final String SEPARATOR = System.getProperty("line.separator");
 
     public final String parse() {
-	return this.parse(0);
+    	return this.parse(0);
     }
 
     public abstract String parse(int indent);

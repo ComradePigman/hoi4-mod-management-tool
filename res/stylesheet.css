@@ -1,0 +1,59 @@
+.root {
+	-fx-background-color: #ffffff;
+	-fx-font-size: 10pt;
+	-fx-padding: 10px;
+	-fx-font-family: "Open Sans"
+}
+
+.startup-btn {
+	-fx-width: 50%;
+	-fx-color: none;
+	-fx-padding: 8px;
+    	-fx-border-insets: 8px;
+    	-fx-background-insets: 8px;
+	-fx-border-color: #ecf0f1;
+	-fx-border-radius: 3px;
+	-fx-border-width: 1px;
+	-fx-border-style: solid;
+}
+
+.h1 {
+	-fx-font-size: 18pt;
+	-fx-text-fill: #3498db;
+	-fx-font-weight: bold;
+	-fx-padding: 0px 0px 8px 0px;
+}
+
+.h2 {
+	-fx-font-size: 12pt;
+	-fx-text-fill: #3498db;
+	-fx-font-weight: bold;
+	-fx-padding: 0px 0px 8px 0px;
+}
+
+.p {
+	-fx-text-fill: #7f8c8d;
+}
+
+.startup-btn Button {
+	-fx-background-color: #3498db;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: bold;
+	-fx-padding: 8px;
+}
+
+.startup-btn VBox {
+	-fx-padding: 17px;
+}
+
+.dir-selector Button {
+	-fx-background-color: #3498db;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: bold;
+	/*-fx-border-radius: 10px!important;*/
+}
+
+.form-label {
+	-fx-text-fill: #7f8c8d;
+	-fx-padding: 5px 0px 2px 0px;
+}
